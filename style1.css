@@ -3,7 +3,6 @@
     margin: 0 auto;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 #bio-image {
@@ -15,14 +14,14 @@
 }
 #name {
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
     position: fixed;
     background-color: darkmagenta;
     /* opacity: .5; */
     /* top: 20px; */
     width: 330px;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: left;
     padding: 20px;
     margin: 0 auto;
@@ -126,6 +125,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    position: relative;
 
 }
 h3 {
@@ -142,8 +142,12 @@ h3 {
     margin-left: 35px;
     padding: 35px;
     border: 0;
-    /* height: 400px; */
+    height: 600px;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
 }
+
 .port  {
     width: 200px;
     height: 150px;
@@ -155,12 +159,21 @@ h3 {
 }
 .port1 {
     float: left;
-    position: static;
+    position: relative;
     
-
+}
+text1 { 
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-text1 {
+    /* position: absolute;
+    bottom: 8px;
+    left: 16px; */
 }
 .port2 {
-    /* float: left; */
+    float: left;
     position: relative;
     overflow: hidden;
 
@@ -172,7 +185,7 @@ h3 {
 
 }
 .port4 {
-    /* float: left; */
+    float: left;
     position: relative;
     overflow: hidden;
 
@@ -194,11 +207,11 @@ a:visited { color: blue; }
 a:hover { color: pink; }
 a:active { color: yellow; }
 
-.footer {
+#footer {
     height: 50px; 
     width: 100%;
     padding: 20px;
-    color: #f2f2f2;
+    color: aqua;
 
  }
 
