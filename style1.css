@@ -40,11 +40,11 @@ body {
     font-size: 24px;
     /* color: darkmagenta; */
     line-height: 150%;
-    /* background-image: url("connectwork.png"); */
+    background-image: url("polka-dots.png");
     margin: 40px;
     padding: 10px;
     border: 20px;
-    background: lightslategray;
+    /* background: lightslategray; */
 }
 #main-bio {
   /* float: left; */
@@ -139,9 +139,10 @@ h3 {
     border-bottom: solid;
     }
 
-#portfolio {
+#Portfolio {
     width: 1250px;
     margin: auto;
+    color: blueviolet;
     /* border-bottom: solid; */
 }
 .pic-set {
